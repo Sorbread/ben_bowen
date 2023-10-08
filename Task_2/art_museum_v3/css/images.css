@@ -1,0 +1,73 @@
+.gallery {
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery .image_box {
+    margin-top: 3rem;
+    width: 250px;
+    height: 460px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    transition: box-shadow 0.3s ease;
+
+}
+
+.image_box:hover {
+    box-shadow: 10px 15px 15px rgba(255, 255, 255, 0.43);
+}
+
+.image {
+    margin: 5px;
+    width: 200px;
+    height: 325px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image_box p {
+    padding: 15px;
+}
+
+.image_content {
+    margin-top: 20px;
+    height: 400px;
+    display: flex;
+    justify-content:left;
+}
+
+.main_image {
+    padding: 2rem 2rem 0 2rem;
+}
+
+.main_image .image {
+    border-radius: 10px;
+    margin: 0;
+}
+
+.main_text {
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+#niagara {
+    background-image: url("../images/niagara_1857_scaled.jpg");
+}
+
+#a_poet_reading {
+    background-image: url("../images/a_poet_reading_1430_scaled.jpg");
+}
+
+#eastern_ruler_seated {
+    background-image: url("../images/an_eastern_ruler_seated_on_his_throne_1495_scaled.jpg");
+}
+
+#david_with_head {
+    background-image: url("../images/david_with_the_head_of_goliath_1495_scaled.jpg");
+}
